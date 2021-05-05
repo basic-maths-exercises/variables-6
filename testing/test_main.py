@@ -27,4 +27,4 @@ class UnitTests(unittest.TestCase) :
        assert( vc.check_vars("d4",c3/f6) )
 
     def test_a1(self) : 
-       asseert( vc.check_vars("a1",( c3 + e5 ) / ( f6 + d4 ) ) )
+       assert( vc.check_vars("a1",( c3 + e5 ) / ( f6 + d4 ) ) )
