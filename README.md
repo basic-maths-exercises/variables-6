@@ -4,11 +4,11 @@ Congratulations on completing the last exercise.  You now can now use variables 
 
 In this exercise we are going to look at a pitfall you might run into if you use Python to do the calculations in your homework.  To understand this pitfall consider the code given below: 
 
-````
+```python
 a = b+4
 b = 2
 print( a )
-`````
+````
 
 You might think that this code will output a value of 6.  It will not do so, however, it will instead return the following error:
 
